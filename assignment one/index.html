@@ -1,0 +1,193 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="assignment 1">
+    <meta name="keywords" content="assignment 1">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Assignment 1</title>
+</head>
+<body>
+    <h1>Assignment one</h1>
+    <hr>
+    <!-- blog-items-alignment  -->
+    <section class="blog-items">
+
+        <div class="blog-articles"> 
+            <div class="blog-article">
+                blog article one
+            </div>
+            <div class="blog-article">
+                blog article two
+            </div>
+            <div class="blog-article">
+                blog article three
+            </div>
+        </div>
+    </section>
+    
+    <!-- buttons  -->
+     <section class="buttons">
+        <button class="btn btn-primary">Primary</button>
+        <button class="btn btn-secondary">Secondary</button>
+        <button class="btn btn-success">success</button>
+        <button class="btn btn-info">info</button>
+        <button class="btn btn-warning">warning</button>
+        <button class="btn btn-danger">danger</button>
+        <button class="btn btn-dark">dark</button>
+     </section>
+
+
+     <!-- form  -->
+      <section class="form">
+       <div class="formContainer">
+        <h2>Vertical Form</h2>
+        <p>example of vertical form using <span>form-control</span> class. no need to specify row and col class to create vertical form</p>
+        <form>
+            <div class="form-group">
+                <label for="name">Employee Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter Employee name " class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="url">Employee Department URL</label>
+                <input type="url" name="url" id="url" placeholder="Enter Employee URL " class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="start-date">Start Leave Date</label>
+                <input type="date" name="start-date" id="start-date" placeholder="" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="end-date">End Leave Date</label>
+                <input type="date" name="end-date" id="end-date" placeholder="" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea  id="message" placeholder="Enter your message " class="form-control" rows="4"></textarea>
+            </div>
+            <div class="form-button">
+                <button class="btn btn-primary submit">Add Leave</button>
+            </div>
+        </form>
+       </div>
+      </section>
+
+
+
+
+      <!-- iframe  -->
+       <section class="iframe"> 
+        <div class="iframeContainer">
+            <h3>Ratio Video 16:9</h3>
+            <P>warp any embed in <code>&lt;iframe&gt;</code> tag, in a parent element, use <span>ratio 16:9</span> class to get aspect ratio 16:9</P>
+            
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/PJtHIX0veaE?si=13AlRiTTDZvsVknS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+        </div>
+
+       </section>
+
+
+
+
+
+       <!-- table  -->
+
+       <section class="table">
+        <div class="container">
+            <div class="default-table">
+                <h3>Default Table</h3>
+                <p>Use <span>table</span> class to show bootstrap-based default table.</p>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Customer</th>
+                            <th>Date</th>
+                            <th>Invoice</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="id">#VZ2110</td>
+                            <td>Bobby Davis</td>
+                            <td>October 15, 2021</td>
+                            <td>$2,300</td>
+                            <td><a href="#">View More →</a></td>
+                        </tr>
+                        <tr>
+                            <td class="id">#VZ2109</td>
+                            <td>Christopher Neal</td>
+                            <td>October 7, 2021</td>
+                            <td>$5,500</td>
+                            <td><a href="#">View More →</a></td>
+                        </tr>
+                        <tr>
+                            <td class="id">#VZ2108</td>
+                            <td>Monkey Karry</td>
+                            <td>October 5, 2021</td>
+                            <td>$2,420</td>
+                            <td><a href="#">View More →</a></td>
+                        </tr>
+                        <tr>
+                            <td class="id">#VZ2107</td>
+                            <td>James White</td>
+                            <td>October 2, 2021</td>
+                            <td>$7,452</td>
+                            <td><a href="#">View More →</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="striped-table">
+                <h3>Striped Rows</h3>
+                <p>Use <span>table-striped</span> class to add zebra-striping to any table row within the <code>&lt;tbody&gt;</code>.</p>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Customer</th>
+                            <th>Date</th>
+                            <th>Invoice</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>01</td>
+                            <td>Bobby Davis</td>
+                            <td>Nov 14, 2021</td>
+                            <td>$2,410</td>
+                            <td><span class="btn confirmed">Confirmed</span></td>
+                        </tr>
+                        <tr>
+                            <td>02</td>
+                            <td>Christopher Neal</td>
+                            <td>Nov 21, 2021</td>
+                            <td>$1,450</td>
+                            <td><span class="btn waiting">Waiting</span></td>
+                        </tr>
+                        <tr>
+                            <td>03</td>
+                            <td>Monkey Karry</td>
+                            <td>Nov 24, 2021</td>
+                            <td>$3,500</td>
+                            <td><span class="btn confirmed">Confirmed</span></td>
+                        </tr>
+                        <tr>
+                            <td>04</td>
+                            <td>Aaron James</td>
+                            <td>Nov 25, 2021</td>
+                            <td>$6,875</td>
+                            <td><span class="btn cancelled">Cancelled</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+       </section>
+</body>
+</html>
